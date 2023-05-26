@@ -1,6 +1,6 @@
-version="1.0"
+version="1.1"
 tags={
 	"Map"
 }
-name="Mng V1.0"
+name="MNGEXtension_V1.1"
 supported_version="1.*.*"
