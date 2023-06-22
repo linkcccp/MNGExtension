@@ -1,5 +1,5 @@
 # update 
-### 这是master分支
+### 这是main分支
 
 ### time: 2023/5/26
 ### vision: 1.1
