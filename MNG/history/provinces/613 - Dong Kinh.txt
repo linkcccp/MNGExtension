@@ -2,7 +2,7 @@ owner = DAI
 controller = DAI
 culture = vietnamese
 religion = mahayana
-capital = "N�N"  # Dong Kinh
+capital = "³l…Q"  # 河内
 trade_goods = chinaware
 hre = no
 base_tax = 9

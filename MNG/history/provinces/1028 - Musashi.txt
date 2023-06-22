@@ -2,7 +2,7 @@ owner = UES
 controller = UES
 culture = togoku
 religion = shinto
-capital = "≥läç"  # Kawagoe
+capital = "N¬¨N"  # Kawagoe
 trade_goods = fish
 hre = no
 base_tax = 6
