@@ -40,7 +40,7 @@ country_decisions = {
         move_capital_effect = yes
         change_culture = turkish
         change_religion = ROOT
-        rename_capital = "Ñy¯efWN<S6w"  # Kostantiniyye
+        rename_capital = "ï¿½yï¿½efWN<S6w"  # Kostantiniyye
       }
       if = {
         limit = {
