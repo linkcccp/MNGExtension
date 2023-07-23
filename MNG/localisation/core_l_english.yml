@@ -59,7 +59,7 @@
  IS_NOT_PROTECTORATE:0 "N=f×SÝO²býV"
  IS_PROTECTORATE:0 "=f×SÝO²býV"
  IS_NOT_COUNTRY_CHRISTIAN:0 "$WHO$N=fúWcwYeýV¶R"
- REFORM_DESIRE_TOOLTIP:0 "§Y9ei—|TðX§!\nÙhˆHyùRYeOÛLˆ9ei—„v4ngz¦^0‚YœgÙNpe<PÇØšÿ1SOúQ°s'YÄ‰!j„vVYeëOYeOÛLˆ9ei—0Ù*Npe<P4ls^(Wte*N)YINYeNLu=fßuN„vÿûNUO)YINYeTINÇ‘ÖS„vªcËeýOžX RÙ*Npe<P0"
+ REFORM_DESIRE_TOOLTIP:0 "§Y9ei—|TðX§!\nÙhˆHy‰BlYeO9ei—„v4ngz¦^0‚YœgÙNpe<PÇØšÿ1SO'YÄ‰!j0WúQ°sVïzÿëOYeOÛLˆ9ei—0Ù*Npe<P4ls^(Wte*N)YINYeNLu=fGWN„vÿûNUO)YINYeTINÇ‘ÖS„vLˆ¨RýïSýwžX RÙ*Npe<P0"
  WAIT_FOR_HOTJOIN:0 "÷‹zPÿINHgckHN`O¾‹n8nb0INHgŠb8nbXRchÑSÙu`OKNTÿ`O1SïSåN	ébN*NýV¶R ReQ8nb0"
  HOST_PREPARING_GAME:0 "÷‹wÃVIr…V\nck(WHN`OÆQY8nb0"
  HOTJOIN_CONFIRM:0 "nx²‹"
@@ -346,7 +346,7 @@
  MAPMODE_TRADE_LEAGUES_DESC:0 "9hncNb^S„v8fTwßvùRwýNNwr‚0‚Yœg`O=fN*N8fTwßv†˜–ˆÿØO>fHyêT›NýV¶RïSåN ReQ`O„v8fTwßvåNÊSÖNìN=f&T?aa0"
  MAPMODE_GREAT_POWERS:0 "RHV"
  MAPMODE_GREAT_POWERS_DESC:0 "	cNb	gw=f&TRHVegùRwýNNwr‚0RHV«ˆ(u,gýVœ˜r‚hÆ‹ÿvQÖN„výV¶R†v=fppr‚0ck(W'N1YRHVD<h„výV¶RO&^Nag¹u0"
- MAPMODE_LOOT:0 "«R c"
+ MAPMODE_LOOT:0 " cHY"
  MAPMODE_LOOT_DESC:0 "9hnciRYOïS cHY„vb)RÁTpeÏ‘ÿùR^SŽNckN`O²Nb„výV¶R„vwýNNwr‚0"
  MAPMODE_STATES_TERRITORIES:0 "ôv^SÞTŒTê»l†˜0W"
  MAPMODE_STATES_TERRITORIES_DESC:0 "ÿur‚hˆHywýN^SŽNôv^SÞTÿÄžr‚hˆHywýN^SŽNê»l†˜0Wÿ®Nÿur‚hˆHy–™ýNb(Wôv^SÞT0"
