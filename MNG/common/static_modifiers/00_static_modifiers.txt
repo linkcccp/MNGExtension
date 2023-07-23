@@ -1010,15 +1010,18 @@ devotion = {
 	reform_progress_growth = 0.5
 }
 
-# Multiplied by current meritocracy - 50
+# Multiplied by current meritocracy - 50 贤能值大于等于50
 meritocracy = {
 	global_spy_defence = 1.0
 	advisor_cost = -0.5
 	reform_progress_growth = 0.5
+	global_tax_modifier = 0.3 #税收收入修正
+	technology_cost = -0.2 #升级所有科技所需花费的君主点数
+	global_unrest = -2 #全国叛乱度
 }
 
-# Multiplied by 50 - meritocracy
-low_meritocracy = {
+# Multiplied by 50 - meritocracy 贤能值小于50
+low_meritocracy = { 
 	yearly_corruption = 0.2 #i.e. 0.2 at 0 Meritocracy
 }
 
