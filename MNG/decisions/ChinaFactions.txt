@@ -1,0 +1,23 @@
+country_decisions = {
+    Enable_factions = { #启用派系
+        major = yes #决议绿色背景 
+        potential = { #潜在条件，不满足潜在条件，决议不会出现在列表上
+            tag = MNG #国家是大明
+            NOT = { has_country_flag = Enable_factions_flag } #没有国家标志，
+        } 
+        allow = {
+            stability = 0 #0点稳定度 
+            is_at_war = no #不在战争中 
+        }
+        effect = {
+            add_faction = bureaucrats #启用内阁大学士
+            add_faction = enuchs #市舶司
+            add_faction = temples #五军都护府 
+
+            set_country_flag = Enable_factions_flag  #定义国家标志  防止决议被复用 
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+} 
