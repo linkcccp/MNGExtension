@@ -888,6 +888,7 @@ south_china_region = {
 		guangxi_area
 
 		changjiang_area #长江地区
+		huanghe_area #黄河地区
 	}
 	monsoon = {
 		00.05.01
