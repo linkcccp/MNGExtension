@@ -14,5 +14,6 @@
 12. 进入steam，eu4右键属性，在高级用户可以选择输入对启动选项的修改这里填写 
     1.  `-nudge`
 13. 对模型摆放好位置之后，保存，导出的文件位于 **我的文档/Paradox Interactive/Europa Universalis IV/文件夹下，存储模型位置信息的文件为/map/position.txt**
+14. 添加海峡文件 **adjacencies.csv**，仿照格式添加海峡文件，开头两个省份代码，中间sea，sea后面是海洋省份代码，然后4个 **-1**，最后注释，用英文分号隔开
 14. 剪切放到自己的mod里
 15. 完成
