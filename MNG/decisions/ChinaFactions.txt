@@ -13,7 +13,7 @@ country_decisions = {
             add_faction = enuchs #市舶司
             add_faction = temples #五军都护府 
 
-            set_country_flag = Enable_MNGfactions_flag  #定义国家标志  防止决议被复用 
+            set_country_flag = Enable_MNGfactions_flag #定义国家标志  防止决议被复用 
         }
         ai_will_do = {
             factor = 1
