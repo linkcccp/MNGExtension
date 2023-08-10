@@ -2635,7 +2635,7 @@ NReligion = {
 
 NNationDesigner = {
 
-	POINTS_AVAILABLE = 9999,
+	POINTS_AVAILABLE = 99999,
 	RULER_BASE_AGE = 30,					-- Creating a ruler with this age is free.
 	RULER_MIN_AGE = 20,						--
 	RULER_MAX_AGE = 40,
