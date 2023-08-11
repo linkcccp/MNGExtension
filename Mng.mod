@@ -1,7 +1,7 @@
-version="2.1.2"
+version="2.1.3"
 tags={
 	"Map"
 }
-name="MNGEXtension_V2.1.2"
+name="MNGEXtension_V2.1.3"
 supported_version="1.35.*"
 path="mod/MNG"
