@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-00_static_modifiers",
+      "appliesTo": "MNG/common/static_modifiers/00_static_modifiers.txt",
+      "type": "launch"
+    }
+  ]
+}
