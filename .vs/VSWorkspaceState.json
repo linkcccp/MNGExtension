@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\MNG",
-    "\\MNG\\common",
-    "\\MNG\\common\\static_modifiers"
+    "\\MNG\\common"
   ],
-  "SelectedNode": "\\MNG\\common\\static_modifiers\\00_static_modifiers.txt",
   "PreviewInSolutionExplorer": false
 }
