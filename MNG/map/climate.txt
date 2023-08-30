@@ -404,6 +404,9 @@ impassable = {
 
 	#阴山
 	6020 6021
+
+	#秦岭
+	6022 6023
 }
 
 mild_monsoon = {
