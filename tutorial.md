@@ -20,3 +20,10 @@
 
 ### 注意
 - PS从rgb模式切换到索引模式的时候，**调版** 选择 **自定**，然后点击载入对应的 **ACT** 文件，之后确定
+
+### 添加山脉
+
+1. definition.csv填写省份信息
+2. default.map更改省份最大值
+3. provinces.bmp画图
+4. 省份添加continent.txt
