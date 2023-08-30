@@ -27,3 +27,4 @@
 2. default.map更改省份最大值
 3. provinces.bmp画图
 4. 省份添加continent.txt
+5. 本地化
