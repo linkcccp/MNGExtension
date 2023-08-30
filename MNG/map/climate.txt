@@ -398,6 +398,9 @@ impassable = {
 
 	#松岭山
 	6017
+
+	#太行山
+	6018 6019
 }
 
 mild_monsoon = {
