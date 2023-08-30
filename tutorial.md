@@ -26,5 +26,6 @@
 1. definition.csv填写省份信息
 2. default.map更改省份最大值
 3. provinces.bmp画图
-4. 省份添加continent.txt
+4. 省份添加continent.txt，并添加到荒地里 ***impassable***
 5. 本地化
+6. 添加历史文件
