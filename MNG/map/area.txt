@@ -2836,7 +2836,7 @@ ngari_area = { #3
 } #new!!
 
 hebei_area = { #4 (North Hebei)
-	703 1816 2136 4194
+	703 1816 2136 4194 6024
 }
 
 south_hebei_area = { #4
