@@ -1,8 +1,10 @@
+
+
 owner = JNP
 controller = JNP
 culture = bihari
 religion = "hinduism"
-capital = "ætÉb³u‰"  # Varanasi
+capital = "ï¿½tï¿½bï¿½uï¿½"  # Varanasi
 trade_goods = silk
 hre = no
 base_tax = 4
@@ -32,7 +34,7 @@ add_province_triggered_modifier = hindu_varanasi
   controller = REB
   revolt = {
     type = anti_tax_rebels
-    name = "àe0W5Ïe"  # Landless Nobles
+    name = "ï¿½e0W5ï¿½ï¿½e"  # Landless Nobles
   }
 }
 1538.1.1 = {
@@ -47,7 +49,7 @@ add_province_triggered_modifier = hindu_varanasi
   remove_core = BNG
 }
 1558.12.1 = {
-  capital = "¢g±W"  # Chunar
+  capital = "ï¿½gï¿½ï¿½W"  # Chunar
 }
 1561.5.1 = {
   controller = MUG
@@ -55,15 +57,15 @@ add_province_triggered_modifier = hindu_varanasi
 1562.1.1 = {
   owner = MUG
   add_core = MUG
-  capital = "ætÉb³u‰"  # Varanasi
+  capital = "ï¿½tï¿½bï¿½uï¿½"  # Varanasi
 }
 1622.10.1 = {
   controller = REB
   revolt = {
     type = pretender_rebels
     size = 2
-    name = "áwSÆY>m"  # Khurrams Faction
-    leader = "™l>Wl·^(g?Q"  # Shah Jahan Timurid
+    name = "ï¿½wSï¿½Y>m"  # Khurrams Faction
+    leader = "ï¿½l>ï¿½Wlï¿½^(g?Q"  # Shah Jahan Timurid
   }
 }
 1623.5.1 = {
@@ -75,8 +77,8 @@ add_province_triggered_modifier = hindu_varanasi
   revolt = {
     type = pretender_rebels
     size = 0
-    name = "FzUØž·V·‚>+R>m"  # Muhammed Shuja's Faction
-    leader = "FzUØž·V·‚>+R·^(g?Q"  # Muhammed Shuja Timurid
+    name = "FzUØžï¿½Vï¿½ï¿½>ï¿½+R>m"  # Muhammed Shuja's Faction
+    leader = "FzUØžï¿½Vï¿½ï¿½>ï¿½+Rï¿½^(g?Q"  # Muhammed Shuja Timurid
   }
 }
 1658.2.14 = {
