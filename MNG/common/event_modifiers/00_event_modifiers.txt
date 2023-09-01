@@ -2,6 +2,15 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+tokyo = { # 江户
+	local_manpower_modifier = 0.25	#当地人力（百分比）
+	local_build_cost = -0.25	#当地建筑花费
+	local_production_efficiency = 0.2	#当地生产效率
+	local_tax_modifier = 0.2	#当地税收（百分比）
+	province_trade_power_modifier = 0.2	#省份贸易力量（百分比）
+	statewide_governing_cost = -0.25	#直辖州内所有省份占用的行政容量花费
+}
+
 shanhaiguan = { #山海关
 	fort_level = 1	# 要塞等级：增加省份的要塞等级，将导致围城难度增加
 	local_defensiveness = 0.35	# 当地防御效率
