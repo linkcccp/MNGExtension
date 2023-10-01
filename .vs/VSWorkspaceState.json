@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    "\\MNG\\common"
+    "",
+    "\\MNG",
+    "\\MNG\\map"
   ],
+  "SelectedNode": "\\MNG\\map\\heightmap.bmp",
   "PreviewInSolutionExplorer": false
 }

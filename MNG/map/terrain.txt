@@ -118,7 +118,7 @@ categories =  {
 			262 264 4126 4173 4240 #Central Europe
 			
 			4194 4195 4196 4197 4212 4213 #Greater China
-			6024
+
 			1020 1021 1028 1030 #Japan
 			735 2745 #Korea
 			
@@ -316,6 +316,9 @@ categories =  {
 		supply_limit = 4
 		
 		terrain_override = {
+
+			6024
+
 			210	226 # Spain
 			139 1831 143 138 4175  #Balkans
 			158 1952 #Hungary
