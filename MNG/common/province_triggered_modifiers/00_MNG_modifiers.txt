@@ -1,0 +1,50 @@
+test_modifier = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			stability = 0
+		}
+	}
+
+	local_build_cost = 0.05	
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+tokyo_metropolis = { # 东京都
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			tag = JAP
+		}
+	}
+
+	global_tax_modifier = 0.2	#税收收入修正
+	production_efficiency = 0.2	#生产效率：生产收入修正
+	state_maintenance_modifier = -0.25	#直辖维护费
+	technology_cost = -0.1	#升级所有科技所需花费的君主点数
+	global_trade_power = 0.15	#全局贸易力量
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
