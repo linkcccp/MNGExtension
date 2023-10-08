@@ -1,4 +1,0 @@
-4775 = {
-  ")RÀs"  # Lippe
-  "·Vyr«ƒS·V"  # Detmold
-}
