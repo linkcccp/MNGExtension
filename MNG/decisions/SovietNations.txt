@@ -1,0 +1,43 @@
+country_decisions = {
+    soviet = {
+        major = yes
+        potential = {
+            tag = RUS
+            NOT = { has_country_flag = soviet_flag }
+        } 
+        allow = {
+            tag = RUS
+        }
+        effect = {
+            change_tag = SOV
+            on_change_tag_effect = yes
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+
+            if = {
+                limit = { is_revolutionary = no }
+                if = {
+                    limit = {
+                        NOT = {
+                            government = republic
+                        }
+                    }
+                    change_government = republic
+                }
+                add_government_reform = soviet_republic
+            }
+
+            # 获取新的国家理念事件
+            if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } 
+			}
+
+            set_country_flag = soviet_flag #定义国家标志  防止决议被复用 
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

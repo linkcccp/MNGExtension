@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "government_reform_soviet"
+		texturefile = "gfx//interface//government_reform_icons//soviet.dds"
+	}
+}

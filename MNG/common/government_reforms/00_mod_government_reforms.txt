@@ -1,0 +1,43 @@
+soviet_republic = {
+	icon = "soviet"
+	allow_normal_conversion = no
+	legacy_government = no
+	valid_for_new_country = no
+	valid_for_nation_designer = yes
+    allow_convert = no
+
+	lock_level_when_selected = yes # 锁定当前的政府改革，禁止切换至其他改革
+
+	republican_name = yes
+	royal_marriage = no
+	claim_states = yes # 确定该政府是否可以同时声称拥有整个州。
+
+    fixed_rank = 3
+    duration = 10
+    has_term_election = yes
+    has_parliament = yes
+    government_abilities = { russian_mechanic }
+
+	republic = yes
+
+	potential = {
+		AND = {
+			tag = SOV
+			has_reform = soviet_republic
+		}
+    }
+	modifiers = {
+    	governing_capacity = 500
+		global_autonomy = -0.075
+		stability_cost_modifier = -0.20
+		no_religion_penalty = yes # 负的宗教容忍不会有负面影响
+		land_morale = 0.15  # 陆军士气修正
+		discipline = 0.05   # 训练度
+		ae_impact = -0.2	# 侵略扩张造成的外交影响
+        
+	}
+
+	ai = {
+		factor = 50
+	}
+}

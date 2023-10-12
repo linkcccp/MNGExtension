@@ -1,0 +1,24 @@
+soviet_republics = {
+	rank = {
+		1 = SOVIET_REPUBLIC
+		2 = SOVIET_REPUBLIC
+		3 = SOVIET_REPUBLIC
+	}
+
+	ruler_male = {
+		1 = COMRADE_GENERAL_SECRETARY
+		2 = COMRADE_GENERAL_SECRETARY
+		3 = COMRADE_GENERAL_SECRETARY
+	}
+
+	ruler_female = {
+		1 = COMRADE_GENERAL_SECRETARY_fem
+		2 = COMRADE_GENERAL_SECRETARY_fem
+		3 = COMRADE_GENERAL_SECRETARY_fem
+	}
+
+	trigger = {
+		has_reform = soviet_republic
+		tag = SOV
+	}
+}
