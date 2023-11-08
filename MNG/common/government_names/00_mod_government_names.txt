@@ -18,7 +18,9 @@ soviet_republics = {
 	}
 
 	trigger = {
-		has_reform = soviet_republic
 		tag = SOV
+		government = republic
+		has_reform = soviet_republic
+
 	}
 }

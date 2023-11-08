@@ -36,7 +36,6 @@ SOV_ideas = {
 	}
 	marxism = { # 马克思主义
 		republican_tradition = 0.5
-		no_religion_penalty = yes
 		religious_unity = 0.5
 	}
 	cheka = { # 肃反委员会
