@@ -1,0 +1,18 @@
+spriteTypes = { # If editing an existing .gfx file then this line will likely already be there, so you might not need to write this. However, make sure the following are inside this.
+    spriteType = {
+        name = "GFX_great_project_volga_don_canal"	
+        texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_main_danube_canal"	
+        texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_welland_canal"	
+        texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_sault_st_marie_canal"	
+        texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+    }
+}

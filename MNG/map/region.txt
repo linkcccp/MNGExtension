@@ -8,6 +8,156 @@ random_new_world_region = {
 # EUROPE                               #
 ########################################
 
+#添加的河流地区
+
+vistula_river_region = {
+	areas = { 
+		vistula_river_area
+	}
+}
+
+west_dvina_river_region = {
+	areas = {
+		west_dvina_river_area
+	}
+}
+
+amu_darya_region = {
+	areas = {
+		amu_darya_area
+	}
+}
+
+syr_darya_region = {
+	areas = {
+		syr_darya_area
+	}
+}
+
+obi_river_region = {
+	areas = {
+		obi_river_area
+	}
+}
+
+yenisei_river_region = {
+	areas = {
+		yenisei_river_area
+	}
+}
+
+lena_river_region = {
+	areas = {
+		lena_river_area
+	}
+}
+
+st_lawrence_river_region = {
+	areas = {
+		st_lawrence_river_area
+	}
+}
+
+changjiang_river_region = {
+	areas = {
+		changjiang_area
+	}
+}
+
+huanghe_river_region = {
+	areas = {
+		huanghe_area
+	}
+}
+
+heilongjiang_river_region = {
+	areas = {
+		amur_river_area
+		heilongjiang_river_area
+	}
+}
+
+nile_river_region = {
+	areas = {
+		nile_river_area
+	}
+}
+
+amazon_river_region = {
+	areas = {
+		madeira_river_area
+		amazon_river_area
+	}
+}
+
+mississippi_river_region = {
+	areas = {
+		missouri_river_area
+		ohio_river_area
+		arkansas_river_area
+		mississippi_river_area
+	}
+}
+
+volga_river_region = {
+	areas = {
+		volga_river_area
+	}
+}
+
+dnieper_river_region = {
+	areas = {
+		dnieper_river_area
+	}
+}
+
+danube_river_region = {
+	areas = {
+		danube_river_area
+	}
+}
+
+indus_river_region = {
+	areas = {
+		indus_river_area
+	}
+}
+
+ganges_river_region = {
+	areas = {
+		ganges_river_area
+	}
+}
+
+rhine_river_region = {
+	areas = {
+		rhine_river_area
+	}
+}
+
+caspian_sea_region = {
+	areas = {
+		caspian_sea_area
+	}
+}
+
+
+don_river_region = {
+	areas = {
+		don_river_area
+	}
+}
+
+main_river_region = {
+	areas = {
+		main_river_area
+	}
+}
+
+
+
+
+
 france_region = {
 	areas = {
 		brittany_area
@@ -886,9 +1036,6 @@ south_china_region = {
 		south_jiangsu_area
 		hunan_area
 		guangxi_area
-
-		changjiang_area #长江地区
-		huanghe_area #黄河地区
 	}
 	monsoon = {
 		00.05.01

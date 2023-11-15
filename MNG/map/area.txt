@@ -3,6 +3,130 @@
 #Sea Areas:
 #No restriction on size.
 
+#维斯瓦河
+vistula_river_area = {
+	#维斯瓦河
+	6156 6157 6158 6159
+}
+
+#西德维那河
+west_dvina_river_area = {
+		#西德维那河
+	6152 6153 6154 6155
+}
+
+#阿姆河
+amu_darya_area = {
+	6147 6148 6149 6150 6151
+}
+
+#锡尔河
+syr_darya_area = {
+	6142 6143 6144 6145 6146
+}
+
+#鄂毕河
+obi_river_area = {
+	#鄂毕河
+	6136 6137 6138 6139 6140 6141
+}
+
+#叶尼塞河
+yenisei_river_area = {
+	#叶尼塞河
+	6130 6131 6132 6133 6134 6135
+}
+#勒拿河
+lena_river_area = {
+	6124 6125 6126 6127 6128 6129
+}
+
+#圣劳伦斯河
+st_lawrence_river_area = {
+	6121 6122 6123
+}
+
+#美因河
+main_river_area = {
+	6115 6116 6117
+}
+
+#顿河
+don_river_area = {
+	6110 6111 6112 6113 6114
+}
+
+#里海
+caspian_sea_area = {
+	6106 6107 6108 6109 1326
+}
+
+#莱茵河
+rhine_river_area = {
+	6100 6101 6102 6103 6104 6105
+}
+#恒河
+ganges_river_area = {
+	6090 6091 6092 6093 6094
+}
+#印度河
+indus_river_area = {
+	6095 6096 6097 6098 6099
+}
+#多瑙河
+danube_river_area = {
+	6082 6083 6084 6085 6086 6087 6088 6089 6118 6119 6120
+}
+#第聂伯河
+dnieper_river_area = {
+	6075 6076 6077 6078 6079 6080 6081
+}
+#伏尔加河
+volga_river_area = {
+	6067 6068 6069 6070 6071 6072 6073 6074
+}
+#密西西比河
+mississippi_river_area = {
+	6046 6047 6048 6049 6050 6051 6052 6053
+}
+
+#阿肯色河
+arkansas_river_area = {
+	6054 6055 6056 6057
+}
+
+#俄亥俄河
+ohio_river_area = {
+	6058 6059 6060 6061
+}
+
+#密苏里河
+missouri_river_area = {
+	6062 6063 6064 6065 6066
+}
+#亚马逊河
+amazon_river_area = {
+	6034 6035 6036 6037 6038 6039 6040 6041
+}
+
+#马代拉河
+madeira_river_area = {
+	6042 6043 6044 6045
+}
+#尼罗河
+nile_river_area = {
+	6024 6025 6026 6027 6028 6029 6030 6031 6032 6033
+}
+#黑龙江河
+heilongjiang_river_area = {
+	6016 6017 6018 6019
+}
+
+#阿穆尔河
+amur_river_area = {
+	6020 6021 6022 6023
+}
+
 #长江
 changjiang_area = {
 	6000 6001 6002 6003 6004 6005
@@ -2836,7 +2960,7 @@ ngari_area = { #3
 } #new!!
 
 hebei_area = { #4 (North Hebei)
-	703 1816 2136 4194 6024
+	703 1816 2136 4194
 }
 
 south_hebei_area = { #4

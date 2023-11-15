@@ -3,4 +3,4 @@ tags={
 	"Map"
 }
 name="MNGEXtension_V2.6.1"
-supported_version="1.35.*"
+supported_version="1.36.*"
