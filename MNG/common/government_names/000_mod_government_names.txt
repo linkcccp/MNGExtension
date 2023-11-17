@@ -18,8 +18,6 @@ soviet_republics = {
 	}
 
 	trigger = {
-		tag = SOV
-		government = republic
 		has_reform = soviet_republic
 
 	}
