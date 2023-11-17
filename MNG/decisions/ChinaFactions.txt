@@ -3,7 +3,7 @@ country_decisions = {
         major = yes #决议绿色背景 
         potential = { #潜在条件，不满足潜在条件，决议不会出现在列表上
             tag = MNG #国家是大明
-            NOT = { has_country_flag = Enable_MNGfactions_flag } #没有国家标志，
+            NOT = { has_country_flag = Enable_MNGfactions_flag } #没有国家标志
         } 
         allow = {
             tag = MNG

@@ -1,0 +1,23 @@
+country_decisions = {
+    Beijing_or_Nanjing = { 
+        major = yes #决议绿色背景 
+        potential = { #潜在条件，不满足潜在条件，决议不会出现在列表上
+            tag = MNG #国家是大明
+            NOT = { has_country_flag = Beijing_or_Nanjing_flag } #没有国家标志，
+        } 
+        allow = {
+            tag = MNG
+            is_year = 1400
+        }
+        effect = {
+            country_event = { 
+                id = mng_change_capital.1
+                days = 1
+            }
+            set_country_flag = Beijing_or_Nanjing_flag #定义国家标志  防止决议被复用 
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+} 

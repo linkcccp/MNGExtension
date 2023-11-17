@@ -13,3 +13,16 @@ shanhaiguan = { #山海关
 	local_defensiveness = 0.35	# 当地防御效率
 	local_hostile_attrition = 1	#当地敌军损耗值
 }
+
+emperor_favored = { # 皇帝青睐
+	imperial_mandate = 0.05
+	local_tax_modifier = 0.1
+	local_production_efficiency = 0.1
+	province_trade_power_modifier = 0.1
+}
+
+liuzai_beijing = { # 留在北京
+	local_hostile_attrition = 5
+    fort_level = 1
+    local_defensiveness = 0.20
+}

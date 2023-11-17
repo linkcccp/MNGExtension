@@ -1,0 +1,40 @@
+namespaces = mng_change_capital
+
+country_event = {
+    id = mng_change_capital.1
+    title = "mng_change_capital.title"
+    desc = "mng_change_capital.desc"
+    picture = PROTESTANT_CATHOLIC_DEBATE_eventPicture
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = mng_change_capital.1.A		
+        ai_chance = { factor = 60 }
+        1821 = {
+            move_capital_effect = yes
+            add_province_modifier = { # 皇帝青睐
+                name = emperor_favored
+                duration = 3650 
+            }
+        }
+        add_country_modifier = { # 迁都南京
+            name = qiandu_nanjing
+            duration = 3650
+        }
+    }
+    option = {
+        name = mng_change_capital.1.B		
+        ai_chance = { factor = 40 }
+        add_country_modifier = { # 北伐
+            name = northern_expedition
+            duration = 1825
+        }
+        1816 = {
+            add_province_modifier = { # 留在北京
+                name = liuzai_beijing
+                duration = 3650 
+            }
+        }
+        add_army_tradition = 20
+    }
+}

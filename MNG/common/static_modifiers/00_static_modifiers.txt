@@ -8,6 +8,18 @@
 # Handicap Modifiers for human player
 ##########################################################################
 
+
+qiandu_nanjing = { # 迁都南京
+	global_tax_modifier = 0.1
+	production_efficiency = 0.1
+	global_trade_power = 0.1
+}
+northern_expedition = { # 北伐
+	land_morale = 0.1
+	army_tradition = 2
+	cavalry_power = 0.1
+}
+
 difficulty_very_easy_player = {
 	global_manpower_modifier = 0.5
 	manpower_recovery_speed = 0.50
