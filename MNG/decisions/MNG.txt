@@ -12,7 +12,7 @@ country_decisions = {
         effect = {
             country_event = { 
                 id = mng_change_capital.1
-                days = 1
+                days = 0
             }
             set_country_flag = Beijing_or_Nanjing_flag #定义国家标志  防止决议被复用 
         }

@@ -1,0 +1,1273 @@
+##移除君主点数
+#adm
+RPAAP_ruler_adm1 = {
+	potential = {
+        ADM = 1
+		NOT = { ADM = 2 }
+	}
+	trigger = {
+        ADM = 1
+		NOT = { ADM = 2 }
+	}
+    country_admin_power = -1
+}
+RPAAP_ruler_adm2 = {
+	potential = {
+        ADM = 2
+		NOT = { ADM = 3 }
+	}
+	trigger = {
+        ADM = 2
+		NOT = { ADM = 3 }
+	}
+    country_admin_power = -2
+}
+RPAAP_ruler_adm3 = {
+	potential = {
+        ADM = 3
+		NOT = { ADM = 4 }
+	}
+	trigger = {
+        ADM = 3
+		NOT = { ADM = 4 }
+	}
+    country_admin_power = -3
+}
+RPAAP_ruler_adm4 = {
+	potential = {
+        ADM = 4
+		NOT = { ADM = 5 }
+	}
+	trigger = {
+        ADM = 4
+		NOT = { ADM = 5 }
+	}
+    country_admin_power = -4
+}
+RPAAP_ruler_adm5 = {
+	potential = {
+        ADM = 5
+		NOT = { ADM = 6 }
+	}
+	trigger = {
+        ADM = 5
+		NOT = { ADM = 6 }
+	}
+    country_admin_power = -5
+}
+RPAAP_ruler_adm6 = {
+	potential = {
+        ADM = 6
+		NOT = { ADM = 7 }
+	}
+	trigger = {
+        ADM = 6
+		NOT = { ADM = 7 }
+	}
+    country_admin_power = -6
+}
+#dip
+RPAAP_ruler_dip1 = {
+	potential = {
+        DIP = 1
+		NOT = { DIP = 2 }
+	}
+	trigger = {
+        DIP = 1
+		NOT = { DIP = 2 }
+	}
+    country_diplomatic_power = -1
+}
+RPAAP_ruler_dip2 = {
+	potential = {
+        DIP = 2
+		NOT = { DIP = 3 }
+	}
+	trigger = {
+        DIP = 2
+		NOT = { DIP = 3 }
+	}
+    country_diplomatic_power = -2
+}
+RPAAP_ruler_dip3 = {
+	potential = {
+        DIP = 3
+		NOT = { DIP = 4 }
+	}
+	trigger = {
+        DIP = 3
+		NOT = { DIP = 4 }
+	}
+    country_diplomatic_power = -3
+}
+RPAAP_ruler_dip4 = {
+	potential = {
+        DIP = 4
+		NOT = { DIP = 5 }
+	}
+	trigger = {
+        DIP = 4
+		NOT = { DIP = 5 }
+	}
+    country_diplomatic_power = -4
+}
+RPAAP_ruler_dip5 = {
+	potential = {
+        DIP = 5
+		NOT = { DIP = 6 }
+	}
+	trigger = {
+        DIP = 5
+		NOT = { DIP = 6 }
+	}
+    country_diplomatic_power = -5
+}
+RPAAP_ruler_dip6 = {
+	potential = {
+        DIP = 6
+		NOT = { DIP = 7 }
+	}
+	trigger = {
+        DIP = 6
+		NOT = { DIP = 7 }
+	}
+    country_diplomatic_power = -6
+}
+#mil
+RPAAP_ruler_mil1 = {
+	potential = {
+        MIL = 1
+		NOT = { MIL = 2 }
+	}
+	trigger = {
+        MIL = 1
+		NOT = { MIL = 2 }
+	}
+    country_military_power = -1
+}
+RPAAP_ruler_mil2 = {
+	potential = {
+        MIL = 2
+		NOT = { MIL = 3 }
+	}
+	trigger = {
+        MIL = 2
+		NOT = { MIL = 3 }
+	}
+    country_military_power = -2
+}
+RPAAP_ruler_mil3 = {
+	potential = {
+        MIL = 3
+		NOT = { MIL = 4 }
+	}
+	trigger = {
+        MIL = 3
+		NOT = { MIL = 4 }
+	}
+    country_military_power = -3
+}
+RPAAP_ruler_mil4 = {
+	potential = {
+        MIL = 4
+		NOT = { MIL = 5 }
+	}
+	trigger = {
+        MIL = 4
+		NOT = { MIL = 5 }
+	}
+    country_military_power = -4
+}
+RPAAP_ruler_mil5 = {
+	potential = {
+        MIL = 5
+		NOT = { MIL = 6 }
+	}
+	trigger = {
+        MIL = 5
+		NOT = { MIL = 6 }
+	}
+    country_military_power = -5
+}
+RPAAP_ruler_mil6 = {
+	potential = {
+        MIL = 6
+		NOT = { MIL = 7 }
+	}
+	trigger = {
+        MIL = 6
+		NOT = { MIL = 7 }
+	}
+    country_military_power = -6
+}
+
+###倍率 poor1 low1.5 middle2.2 high3
+###君主行政影响
+##adm
+#1
+RPAAP_adm1_poor = {
+	potential = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor = yes
+	}
+	trigger = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor = yes
+	}
+    country_admin_power = 0
+}
+RPAAP_adm1_low = {
+	potential = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor = yes
+	}
+    country_admin_power = 0.5
+}
+RPAAP_adm1_middle = {
+	potential = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor = yes
+	}
+    country_admin_power = 1.2
+}
+RPAAP_adm1_high = {
+	potential = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor = yes
+	}
+    country_admin_power = 2
+}
+#2
+RPAAP_adm2_poor = {
+	potential = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+	trigger = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+    country_admin_power = 0
+}
+RPAAP_adm2_low = {
+	potential = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+    country_admin_power = 1
+}
+RPAAP_adm2_middle = {
+	potential = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+    country_admin_power = 2.4
+}
+RPAAP_adm2_high = {
+	potential = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_2 = yes
+	}
+    country_admin_power = 4
+}
+#3
+RPAAP_adm3_poor = {
+	potential = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+	trigger = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+    country_admin_power = 0
+}
+RPAAP_adm3_low = {
+	potential = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+    country_admin_power = 1.5
+}
+RPAAP_adm3_middle = {
+	potential = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+    country_admin_power = 3.6
+}
+RPAAP_adm3_high = {
+	potential = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_3 = yes
+	}
+    country_admin_power = 6
+}
+#4
+RPAAP_adm4_poor = {
+	potential = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+	trigger = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+    country_admin_power = 0
+}
+RPAAP_adm4_low = {
+	potential = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+    country_admin_power = 2
+}
+RPAAP_adm4_middle = {
+	potential = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+    country_admin_power = 4.8
+}
+RPAAP_adm4_high = {
+	potential = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_4 = yes
+	}
+    country_admin_power = 8
+}
+#5
+RPAAP_adm5_poor = {
+	potential = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+	trigger = {
+        ADM = 0
+		NOT = { ADM = 1 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+    country_admin_power = 0
+}
+RPAAP_adm5_low = {
+	potential = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 1
+		ADM = 2
+		}
+		NOT = { ADM = 3 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+    country_admin_power = 2.5
+}
+RPAAP_adm5_middle = {
+	potential = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 3
+		ADM = 4
+		}
+		NOT = { ADM = 5 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+    country_admin_power = 6
+}
+RPAAP_adm5_high = {
+	potential = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        ADM = 5
+		ADM = 6
+		}
+		NOT = { ADM = 7 }
+		RPAAP_has_adm_advisor_5 = yes
+	}
+    country_admin_power = 10
+}
+##dip
+#1
+RPAAP_dip1_poor = {
+	potential = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor = yes
+	}
+	trigger = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor = yes
+	}
+    country_diplomatic_power = 0
+}
+RPAAP_dip1_low = {
+	potential = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor = yes
+	}
+    country_diplomatic_power = 0.5
+}
+RPAAP_dip1_middle = {
+	potential = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor = yes
+	}
+    country_diplomatic_power = 1.2
+}
+RPAAP_dip1_high = {
+	potential = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor = yes
+	}
+    country_diplomatic_power = 2
+}
+#2
+RPAAP_dip2_poor = {
+	potential = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+	trigger = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+    country_diplomatic_power = 0
+}
+RPAAP_dip2_low = {
+	potential = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+    country_diplomatic_power = 1
+}
+RPAAP_dip2_middle = {
+	potential = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+    country_diplomatic_power = 2.4
+}
+RPAAP_dip2_high = {
+	potential = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_2 = yes
+	}
+    country_diplomatic_power = 4
+}
+#3
+RPAAP_dip3_poor = {
+	potential = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+	trigger = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+    country_diplomatic_power = 0
+}
+RPAAP_dip3_low = {
+	potential = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+    country_diplomatic_power = 1.5
+}
+RPAAP_dip3_middle = {
+	potential = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+    country_diplomatic_power = 3.6
+}
+RPAAP_dip3_high = {
+	potential = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_3 = yes
+	}
+    country_diplomatic_power = 6
+}
+#4
+RPAAP_dip4_poor = {
+	potential = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+	trigger = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+    country_diplomatic_power = 0
+}
+RPAAP_dip4_low = {
+	potential = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+    country_diplomatic_power = 2
+}
+RPAAP_dip4_middle = {
+	potential = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+    country_diplomatic_power = 4.8
+}
+RPAAP_dip4_high = {
+	potential = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_4 = yes
+	}
+    country_diplomatic_power = 8
+}
+#5
+RPAAP_dip5_poor = {
+	potential = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+	trigger = {
+        DIP = 0
+		NOT = { DIP = 1 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+    country_diplomatic_power = 0
+}
+RPAAP_dip5_low = {
+	potential = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 1
+		DIP = 2
+		}
+		NOT = { DIP = 3 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+    country_diplomatic_power = 2.5
+}
+RPAAP_dip5_middle = {
+	potential = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 3
+		DIP = 4
+		}
+		NOT = { DIP = 5 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+    country_diplomatic_power = 6
+}
+RPAAP_dip5_high = {
+	potential = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        DIP = 5
+		DIP = 6
+		}
+		NOT = { DIP = 7 }
+		RPAAP_has_dip_advisor_5 = yes
+	}
+    country_diplomatic_power = 10
+}
+##mil
+#1
+RPAAP_mil1_poor = {
+	potential = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor = yes
+	}
+	trigger = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor = yes
+	}
+    country_military_power = 0
+}
+RPAAP_mil1_low = {
+	potential = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor = yes
+	}
+    country_military_power = 0.5
+}
+RPAAP_mil1_middle = {
+	potential = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor = yes
+	}
+    country_military_power = 1.2
+}
+RPAAP_mil1_high = {
+	potential = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor = yes
+	}
+    country_military_power = 2
+}
+#2
+RPAAP_mil2_poor = {
+	potential = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+	trigger = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+    country_military_power = 0
+}
+RPAAP_mil2_low = {
+	potential = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+    country_military_power = 1
+}
+RPAAP_mil2_middle = {
+	potential = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+    country_military_power = 2.4
+}
+RPAAP_mil2_high = {
+	potential = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_2 = yes
+	}
+    country_military_power = 4
+}
+#3
+RPAAP_mil3_poor = {
+	potential = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+	trigger = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+    country_military_power = 0
+}
+RPAAP_mil3_low = {
+	potential = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+    country_military_power = 1.5
+}
+RPAAP_mil3_middle = {
+	potential = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+    country_military_power = 3.6
+}
+RPAAP_mil3_high = {
+	potential = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_3 = yes
+	}
+    country_military_power = 6
+}
+#4
+RPAAP_mil4_poor = {
+	potential = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+	trigger = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+    country_military_power = 0
+}
+RPAAP_mil4_low = {
+	potential = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+    country_military_power = 2
+}
+RPAAP_mil4_middle = {
+	potential = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+    country_military_power = 4.8
+}
+RPAAP_mil4_high = {
+	potential = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_4 = yes
+	}
+    country_military_power = 8
+}
+#5
+RPAAP_mil5_poor = {
+	potential = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+	trigger = {
+        MIL = 0
+		NOT = { MIL = 1 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+    country_military_power = 0
+}
+RPAAP_mil5_low = {
+	potential = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 1
+		MIL = 2
+		}
+		NOT = { MIL = 3 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+    country_military_power = 2.5
+}
+RPAAP_mil5_middle = {
+	potential = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 3
+		MIL = 4
+		}
+		NOT = { MIL = 5 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+    country_military_power = 6
+}
+RPAAP_mil5_high = {
+	potential = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+	trigger = {
+		OR = {
+        MIL = 5
+		MIL = 6
+		}
+		NOT = { MIL = 7 }
+		RPAAP_has_mil_advisor_5 = yes
+	}
+    country_military_power = 10
+}

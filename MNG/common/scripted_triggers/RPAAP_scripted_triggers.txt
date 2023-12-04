@@ -1,0 +1,994 @@
+#GENERAL TRIGGERS
+#adm
+RPAAP_has_adm_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_adm_advisor_tooltip
+		OR = {
+			advisor = treasurer
+			advisor = philosopher
+			advisor = artist
+			advisor = theologian
+			advisor = master_of_mint
+			advisor = inquisitor
+			advisor = natural_scientist
+			#maid
+			advisor = ms_advisor_scientist
+			advisor = ms_advisor_green
+			advisor = ms_advisor_blue
+			advisor = ms_advisor_grey
+			#Anbennar
+			advisor = court_mage
+			#idea_var
+			advisor = idea_var_advisor_1
+			advisor = idea_var_advisor_3
+			advisor = idea_var_advisor_4
+			advisor = idea_var_advisor_6
+			advisor = idea_var_advisor_8
+			advisor = idea_var_advisor_9
+			advisor = idea_var_advisor_20
+			advisor = idea_var_advisor_30
+			advisor = idea_var_advisor_31
+			advisor = idea_var_advisor_32
+			#AB
+			advisor = magistrate
+			advisor = in_advisor
+			advisor = papal_advisor
+			advisor = islamic_advisor
+			advisor = architect
+			advisor = visionary
+			advisor = planner
+			advisor = scholar
+			advisor = missionary
+		}
+		NOT = {
+		OR = {
+			treasurer = 2
+			philosopher = 2
+			artist = 2
+			theologian = 2
+			master_of_mint = 2
+			inquisitor = 2
+			natural_scientist = 2
+			#maid
+			ms_advisor_scientist = 2
+			ms_advisor_green = 2
+			ms_advisor_blue = 2
+			ms_advisor_grey = 2
+			#Anbennar
+			court_mage = 2
+			#idea_var
+			idea_var_advisor_1 = 2
+			idea_var_advisor_3 = 2
+			idea_var_advisor_4 = 2
+			idea_var_advisor_6 = 2
+			idea_var_advisor_8 = 2
+			idea_var_advisor_9 = 2
+			idea_var_advisor_20 = 2
+			idea_var_advisor_30 = 2
+			idea_var_advisor_31 = 2
+			idea_var_advisor_32 = 2
+			#AB
+			magistrate = 2
+			in_advisor = 2
+			papal_advisor = 2
+			islamic_advisor = 2
+			architect = 2
+			visionary = 2
+			planner = 2
+			scholar = 2
+			missionary = 2
+		}
+		}
+	}
+}
+RPAAP_has_adm_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_adm_advisor_2_tooltip
+		OR = {
+			treasurer = 2
+			philosopher = 2
+			artist = 2
+			theologian = 2
+			master_of_mint = 2
+			inquisitor = 2
+			natural_scientist = 2
+			#maid
+			ms_advisor_scientist = 2
+			ms_advisor_green = 2
+			ms_advisor_blue = 2
+			ms_advisor_grey = 2
+			#Anbennar
+			court_mage = 2
+			#idea_var
+			idea_var_advisor_1 = 2
+			idea_var_advisor_3 = 2
+			idea_var_advisor_4 = 2
+			idea_var_advisor_6 = 2
+			idea_var_advisor_8 = 2
+			idea_var_advisor_9 = 2
+			idea_var_advisor_20 = 2
+			idea_var_advisor_30 = 2
+			idea_var_advisor_31 = 2
+			idea_var_advisor_32 = 2
+			#AB
+			magistrate = 2
+			in_advisor = 2
+			papal_advisor = 2
+			islamic_advisor = 2
+			architect = 2
+			visionary = 2
+			planner = 2
+			scholar = 2
+			missionary = 2
+		}
+		NOT = {
+		OR = {
+			treasurer = 3
+			philosopher = 3
+			artist = 3
+			 theologian = 3
+			master_of_mint = 3
+			inquisitor = 3
+			natural_scientist = 3
+			#maid
+			ms_advisor_scientist = 3
+			ms_advisor_green = 3
+			ms_advisor_blue = 3
+			ms_advisor_grey = 3
+			#Anbennar
+			court_mage = 3
+			#idea_var
+			idea_var_advisor_1 = 3
+			idea_var_advisor_3 = 3
+			idea_var_advisor_4 = 3
+			idea_var_advisor_6 = 3
+			idea_var_advisor_8 = 3
+			idea_var_advisor_9 = 3
+			idea_var_advisor_20 = 3
+			idea_var_advisor_30 = 3
+			idea_var_advisor_31 = 3
+			idea_var_advisor_32 = 3
+			#AB
+			magistrate = 3
+			in_advisor = 3
+			papal_advisor = 3
+			islamic_advisor = 3
+			architect = 3
+			visionary = 3
+			planner = 3
+			scholar = 3
+			missionary = 3
+		}
+		}
+	}
+}
+RPAAP_has_adm_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_adm_advisor_3_tooltip
+		OR = {
+			treasurer = 3
+			philosopher = 3
+			artist = 3
+			 theologian = 3
+			master_of_mint = 3
+			inquisitor = 3
+			natural_scientist = 3
+			#maid
+			ms_advisor_scientist = 3
+			ms_advisor_green = 3
+			ms_advisor_blue = 3
+			ms_advisor_grey = 3
+			#Anbennar
+			court_mage = 3
+			#idea_var
+			idea_var_advisor_1 = 3
+			idea_var_advisor_3 = 3
+			idea_var_advisor_4 = 3
+			idea_var_advisor_6 = 3
+			idea_var_advisor_8 = 3
+			idea_var_advisor_9 = 3
+			idea_var_advisor_20 = 3
+			idea_var_advisor_30 = 3
+			idea_var_advisor_31 = 3
+			idea_var_advisor_32 = 3
+			#AB
+			magistrate = 3
+			in_advisor = 3
+			papal_advisor = 3
+			islamic_advisor = 3
+			architect = 3
+			visionary = 3
+			planner = 3
+			scholar = 3
+			missionary = 3
+		}
+		NOT = {
+		OR = {
+			treasurer = 4
+			philosopher = 4
+			artist = 4
+			 theologian = 4
+			master_of_mint = 4
+			inquisitor = 4
+			natural_scientist = 4
+			#maid
+			ms_advisor_scientist = 4
+			ms_advisor_green = 4
+			ms_advisor_blue = 4
+			ms_advisor_grey = 4
+			#Anbennar
+			court_mage = 4
+			#idea_var
+			idea_var_advisor_1 = 4
+			idea_var_advisor_3 = 4
+			idea_var_advisor_4 = 4
+			idea_var_advisor_6 = 4
+			idea_var_advisor_8 = 4
+			idea_var_advisor_9 = 4
+			idea_var_advisor_20 = 4
+			idea_var_advisor_30 = 4
+			idea_var_advisor_31 = 4
+			idea_var_advisor_32 = 4
+			#AB
+			magistrate = 4
+			in_advisor = 4
+			papal_advisor = 4
+			islamic_advisor = 4
+			architect = 4
+			visionary = 4
+			planner = 4
+			scholar = 4
+			missionary = 4
+		}
+		}
+	}
+}
+RPAAP_has_adm_advisor_4 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_adm_advisor_4_tooltip
+		OR = {
+			treasurer = 4
+			philosopher = 4
+			artist = 4
+			 theologian = 4
+			master_of_mint = 4
+			inquisitor = 4
+			natural_scientist = 4
+			#maid
+			ms_advisor_scientist = 4
+			ms_advisor_green = 4
+			ms_advisor_blue = 4
+			ms_advisor_grey = 4
+			#Anbennar
+			court_mage = 4
+			#idea_var
+			idea_var_advisor_1 = 4
+			idea_var_advisor_3 = 4
+			idea_var_advisor_4 = 4
+			idea_var_advisor_6 = 4
+			idea_var_advisor_8 = 4
+			idea_var_advisor_9 = 4
+			idea_var_advisor_20 = 4
+			idea_var_advisor_30 = 4
+			idea_var_advisor_31 = 4
+			idea_var_advisor_32 = 4
+			#AB
+			magistrate = 4
+			in_advisor = 4
+			papal_advisor = 4
+			islamic_advisor = 4
+			architect = 4
+			visionary = 4
+			planner = 4
+			scholar = 4
+			missionary = 4
+		}
+		NOT = {
+		OR = {
+			treasurer = 5
+			philosopher = 5
+			artist = 5
+			 theologian = 5
+			master_of_mint = 5
+			inquisitor = 5
+			natural_scientist = 5
+			#maid
+			ms_advisor_scientist = 5
+			ms_advisor_green = 5
+			ms_advisor_blue = 5
+			ms_advisor_grey = 5
+			#Anbennar
+			court_mage = 5
+			#idea_var
+			idea_var_advisor_1 = 5
+			idea_var_advisor_3 = 5
+			idea_var_advisor_4 = 5
+			idea_var_advisor_6 = 5
+			idea_var_advisor_8 = 5
+			idea_var_advisor_9 = 5
+			idea_var_advisor_20 = 5
+			idea_var_advisor_30 = 5
+			idea_var_advisor_31 = 5
+			idea_var_advisor_32 = 5
+			#AB
+			magistrate = 5
+			in_advisor = 5
+			papal_advisor = 5
+			islamic_advisor = 5
+			architect = 5
+			visionary = 5
+			planner = 5
+			scholar = 5
+			missionary = 5
+		}
+		}
+	}
+}
+RPAAP_has_adm_advisor_5 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_adm_advisor_5_tooltip
+		OR = {
+			treasurer = 5
+			philosopher = 5
+			artist = 5
+			 theologian = 5
+			master_of_mint = 5
+			inquisitor = 5
+			natural_scientist = 5
+			#maid
+			ms_advisor_scientist = 5
+			ms_advisor_green = 5
+			ms_advisor_blue = 5
+			ms_advisor_grey = 5
+			#Anbennar
+			court_mage = 5
+			#idea_var
+			idea_var_advisor_1 = 5
+			idea_var_advisor_3 = 5
+			idea_var_advisor_4 = 5
+			idea_var_advisor_6 = 5
+			idea_var_advisor_8 = 5
+			idea_var_advisor_9 = 5
+			idea_var_advisor_20 = 5
+			idea_var_advisor_30 = 5
+			idea_var_advisor_31 = 5
+			idea_var_advisor_32 = 5
+			#AB
+			magistrate = 5
+			in_advisor = 5
+			papal_advisor = 5
+			islamic_advisor = 5
+			architect = 5
+			visionary = 5
+			planner = 5
+			scholar = 5
+			missionary = 5
+		}
+	}
+}
+#dip
+RPAAP_has_dip_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_dip_advisor_tooltip
+		OR = {
+			advisor = statesman
+			advisor = diplomat
+			advisor = naval_reformer
+			advisor = trader
+			advisor = colonial_governor
+			advisor = navigator
+			advisor = spymaster
+			#maid
+			advisor = ms_advisor_diplo
+			advisor = ms_advisor_white
+			#idea_var
+			advisor = idea_var_advisor_2
+			advisor = idea_var_advisor_7
+			advisor = idea_var_advisor_10
+			advisor = idea_var_advisor_19
+			advisor = idea_var_advisor_21
+			advisor = idea_var_advisor_22
+			advisor = idea_var_advisor_23
+			advisor = idea_var_advisor_24
+			advisor = idea_var_advisor_25
+			advisor = idea_var_advisor_26
+			advisor = idea_var_advisor_27
+			#AB
+			advisor = ae_advisor
+			advisor = councilor
+			advisor = mandate_advisor
+			advisor = colonist
+			advisor = dockmaster
+			advisor = concubine
+			}
+		NOT = {
+		OR = {
+			statesman = 2
+			diplomat = 2
+			naval_reformer = 2
+			trader = 2
+			colonial_governor = 2
+			navigator = 2
+			spymaster = 2
+			#maid
+			ms_advisor_diplo = 2
+			ms_advisor_white = 2
+			#idea_var
+			idea_var_advisor_2 = 2
+			idea_var_advisor_7 = 2
+			idea_var_advisor_10 = 2
+			idea_var_advisor_19 = 2
+			idea_var_advisor_21 = 2
+			idea_var_advisor_22 = 2
+			idea_var_advisor_23 = 2
+			idea_var_advisor_24 = 2
+			idea_var_advisor_25 = 2
+			idea_var_advisor_26 = 2
+			idea_var_advisor_27 = 2
+			#AB
+			ae_advisor = 2
+			councilor = 2
+			mandate_advisor = 2
+			colonist = 2
+			dockmaster = 2
+			concubine = 2
+			}
+		}
+	}
+}
+RPAAP_has_dip_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_dip_advisor_2_tooltip
+		OR = {
+			statesman = 2
+			diplomat = 2
+			naval_reformer = 2
+			trader = 2
+			colonial_governor = 2
+			navigator = 2
+			spymaster = 2
+			#maid
+			ms_advisor_diplo = 2
+			ms_advisor_white = 2
+			#idea_var
+			idea_var_advisor_2 = 2
+			idea_var_advisor_7 = 2
+			idea_var_advisor_10 = 2
+			idea_var_advisor_19 = 2
+			idea_var_advisor_21 = 2
+			idea_var_advisor_22 = 2
+			idea_var_advisor_23 = 2
+			idea_var_advisor_24 = 2
+			idea_var_advisor_25 = 2
+			idea_var_advisor_26 = 2
+			idea_var_advisor_27 = 2
+			#AB
+			ae_advisor = 2
+			councilor = 2
+			mandate_advisor = 2
+			colonist = 2
+			dockmaster = 2
+			concubine = 2
+			}
+		NOT = {
+		OR = {
+			statesman = 3
+			diplomat = 3
+			naval_reformer = 3
+			trader = 3
+			colonial_governor = 3
+			navigator = 3
+			spymaster = 3
+			#maid
+			ms_advisor_diplo = 3
+			ms_advisor_white = 3
+			#idea_var
+			idea_var_advisor_2 = 3
+			idea_var_advisor_7 = 3
+			idea_var_advisor_10 = 3
+			idea_var_advisor_19 = 3
+			idea_var_advisor_21 = 3
+			idea_var_advisor_22 = 3
+			idea_var_advisor_23 = 3
+			idea_var_advisor_24 = 3
+			idea_var_advisor_25 = 3
+			idea_var_advisor_26 = 3
+			idea_var_advisor_27 = 3
+			#AB
+			ae_advisor = 3
+			councilor = 3
+			mandate_advisor = 3
+			colonist = 3
+			dockmaster = 3
+			concubine = 3
+			}
+		}
+	}
+}
+RPAAP_has_dip_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_dip_advisor_3_tooltip
+		OR = {
+			statesman = 3
+			diplomat = 3
+			naval_reformer = 3
+			trader = 3
+			colonial_governor = 3
+			navigator = 3
+			spymaster = 3
+			#maid
+			ms_advisor_diplo = 3
+			ms_advisor_white = 3
+			#idea_var
+			idea_var_advisor_2 = 3
+			idea_var_advisor_7 = 3
+			idea_var_advisor_10 = 3
+			idea_var_advisor_19 = 3
+			idea_var_advisor_21 = 3
+			idea_var_advisor_22 = 3
+			idea_var_advisor_23 = 3
+			idea_var_advisor_24 = 3
+			idea_var_advisor_25 = 3
+			idea_var_advisor_26 = 3
+			idea_var_advisor_27 = 3
+			#AB
+			ae_advisor = 3
+			councilor = 3
+			mandate_advisor = 3
+			colonist = 3
+			dockmaster = 3
+			concubine = 3
+			}
+		NOT = {
+		OR = {
+			statesman = 4
+			diplomat = 4
+			naval_reformer = 4
+			trader = 4
+			colonial_governor = 4
+			navigator = 4
+			spymaster = 4
+			#maid
+			ms_advisor_diplo = 4
+			ms_advisor_white = 4
+			#idea_var
+			idea_var_advisor_2 = 4
+			idea_var_advisor_7 = 4
+			idea_var_advisor_10 = 4
+			idea_var_advisor_19 = 4
+			idea_var_advisor_21 = 4
+			idea_var_advisor_22 = 4
+			idea_var_advisor_23 = 4
+			idea_var_advisor_24 = 4
+			idea_var_advisor_25 = 4
+			idea_var_advisor_26 = 4
+			idea_var_advisor_27 = 4
+			#AB
+			ae_advisor = 4
+			councilor = 4
+			mandate_advisor = 4
+			colonist = 4
+			dockmaster = 4
+			concubine = 4
+			}
+		}
+	}
+}
+RPAAP_has_dip_advisor_4 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_dip_advisor_4_tooltip
+		OR = {
+			statesman = 4
+			diplomat = 4
+			naval_reformer = 4
+			trader = 4
+			colonial_governor = 4
+			navigator = 4
+			spymaster = 4
+			#maid
+			ms_advisor_diplo = 4
+			ms_advisor_white = 4
+			#idea_var
+			idea_var_advisor_2 = 4
+			idea_var_advisor_7 = 4
+			idea_var_advisor_10 = 4
+			idea_var_advisor_19 = 4
+			idea_var_advisor_21 = 4
+			idea_var_advisor_22 = 4
+			idea_var_advisor_23 = 4
+			idea_var_advisor_24 = 4
+			idea_var_advisor_25 = 4
+			idea_var_advisor_26 = 4
+			idea_var_advisor_27 = 4
+			#AB
+			ae_advisor = 4
+			councilor = 4
+			mandate_advisor = 4
+			colonist = 4
+			dockmaster = 4
+			concubine = 4
+			}
+		NOT = {
+		OR = {
+			statesman = 5
+			diplomat = 5
+			naval_reformer = 5
+			trader = 5
+			colonial_governor = 5
+			navigator = 5
+			spymaster = 5
+			#maid
+			ms_advisor_diplo = 5
+			ms_advisor_white = 5
+			#idea_var
+			idea_var_advisor_2 = 5
+			idea_var_advisor_7 = 5
+			idea_var_advisor_10 = 5
+			idea_var_advisor_19 = 5
+			idea_var_advisor_21 = 5
+			idea_var_advisor_22 = 5
+			idea_var_advisor_23 = 5
+			idea_var_advisor_24 = 5
+			idea_var_advisor_25 = 5
+			idea_var_advisor_26 = 5
+			idea_var_advisor_27 = 5
+			#AB
+			ae_advisor = 5
+			councilor = 5
+			mandate_advisor = 5
+			colonist = 5
+			dockmaster = 5
+			concubine = 5
+			}
+		}
+	}
+}
+RPAAP_has_dip_advisor_5 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_dip_advisor_5_tooltip
+		OR = {
+			statesman = 5
+			diplomat = 5
+			naval_reformer = 5
+			trader = 5
+			colonial_governor = 5
+			navigator = 5
+			spymaster = 5
+			#maid
+			ms_advisor_diplo = 5
+			ms_advisor_white = 5
+			#idea_var
+			idea_var_advisor_2 = 5
+			idea_var_advisor_7 = 5
+			idea_var_advisor_10 = 5
+			idea_var_advisor_19 = 5
+			idea_var_advisor_21 = 5
+			idea_var_advisor_22 = 5
+			idea_var_advisor_23 = 5
+			idea_var_advisor_24 = 5
+			idea_var_advisor_25 = 5
+			idea_var_advisor_26 = 5
+			idea_var_advisor_27 = 5
+			#AB
+			ae_advisor = 5
+			councilor = 5
+			mandate_advisor = 5
+			colonist = 5
+			dockmaster = 5
+			concubine = 5
+			}
+	}
+}
+#mil
+RPAAP_has_mil_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_mil_advisor_tooltip
+		OR = {
+			advisor = army_organiser
+			advisor = army_reformer
+			advisor = commandant
+			advisor = grand_captain
+			advisor = recruitmaster
+			advisor = fortification_expert
+			advisor = quartermaster
+			#maid
+			advisor = ms_advisor_militarist
+			advisor = ms_advisor_red
+			#idea_var
+			advisor = idea_var_advisor_5
+			advisor = idea_var_advisor_11
+			advisor = idea_var_advisor_12
+			advisor = idea_var_advisor_13
+			advisor = idea_var_advisor_14
+			advisor = idea_var_advisor_15
+			advisor = idea_var_advisor_16
+			advisor = idea_var_advisor_17
+			advisor = idea_var_advisor_18
+			advisor = idea_var_advisor_28
+			advisor = idea_var_advisor_29
+			#AB
+			advisor = mr_advisor
+			advisor = dragoon
+			advisor = siegeengineer
+			advisor = drillmaster
+			#NYAB
+			advisor = yongbingduizhang
+			}
+		NOT = {
+		OR = {
+			army_organiser = 2
+			army_reformer = 2
+			commandant = 2
+			grand_captain = 2
+			recruitmaster = 2
+			fortification_expert = 2
+			quartermaster = 2
+			#maid
+			ms_advisor_militarist = 2
+			ms_advisor_red = 2
+			#idea_var
+			idea_var_advisor_5 = 2
+			idea_var_advisor_11 = 2
+			idea_var_advisor_12 = 2
+			idea_var_advisor_13 = 2
+			idea_var_advisor_14 = 2
+			idea_var_advisor_15 = 2
+			idea_var_advisor_16 = 2
+			idea_var_advisor_17 = 2
+			idea_var_advisor_18 = 2
+			idea_var_advisor_28 = 2
+			idea_var_advisor_29 = 2
+			#AB
+			mr_advisor = 2
+			dragoon = 2
+			siegeengineer = 2
+			drillmaster = 2
+			#NYAB
+			yongbingduizhang = 2
+			}
+		}
+	}
+}
+RPAAP_has_mil_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_mil_advisor_2_tooltip
+		OR = {
+			army_organiser = 2
+			army_reformer = 2
+			commandant = 2
+			grand_captain = 2
+			recruitmaster = 2
+			fortification_expert = 2
+			quartermaster = 2
+			#maid
+			ms_advisor_militarist = 2
+			ms_advisor_red = 2
+			#idea_var
+			idea_var_advisor_5 = 2
+			idea_var_advisor_11 = 2
+			idea_var_advisor_12 = 2
+			idea_var_advisor_13 = 2
+			idea_var_advisor_14 = 2
+			idea_var_advisor_15 = 2
+			idea_var_advisor_16 = 2
+			idea_var_advisor_17 = 2
+			idea_var_advisor_18 = 2
+			idea_var_advisor_28 = 2
+			idea_var_advisor_29 = 2
+			#AB
+			mr_advisor = 2
+			dragoon = 2
+			siegeengineer = 2
+			drillmaster = 2
+			#NYAB
+			yongbingduizhang = 2
+			}
+		NOT = {
+		OR = {
+			army_organiser = 3
+			army_reformer = 3
+			commandant = 3
+			grand_captain = 3
+			recruitmaster = 3
+			fortification_expert = 3
+			quartermaster = 3
+			#maid
+			ms_advisor_militarist = 3
+			ms_advisor_red = 3
+			#idea_var
+			idea_var_advisor_5 = 3
+			idea_var_advisor_11 = 3
+			idea_var_advisor_12 = 3
+			idea_var_advisor_13 = 3
+			idea_var_advisor_14 = 3
+			idea_var_advisor_15 = 3
+			idea_var_advisor_16 = 3
+			idea_var_advisor_17 = 3
+			idea_var_advisor_18 = 3
+			idea_var_advisor_28 = 3
+			idea_var_advisor_29 = 3
+			#AB
+			mr_advisor = 3
+			dragoon = 3
+			siegeengineer = 3
+			drillmaster = 3
+			#NYAB
+			yongbingduizhang = 3
+			}
+		}
+	}
+}
+RPAAP_has_mil_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_mil_advisor_3_tooltip
+		OR = {
+			army_organiser = 3
+			army_reformer = 3
+			commandant = 3
+			grand_captain = 3
+			recruitmaster = 3
+			fortification_expert = 3
+			quartermaster = 3
+			#maid
+			ms_advisor_militarist = 3
+			ms_advisor_red = 3
+			#idea_var
+			idea_var_advisor_5 = 3
+			idea_var_advisor_11 = 3
+			idea_var_advisor_12 = 3
+			idea_var_advisor_13 = 3
+			idea_var_advisor_14 = 3
+			idea_var_advisor_15 = 3
+			idea_var_advisor_16 = 3
+			idea_var_advisor_17 = 3
+			idea_var_advisor_18 = 3
+			idea_var_advisor_28 = 3
+			idea_var_advisor_29 = 3
+			#AB
+			mr_advisor = 3
+			dragoon = 3
+			siegeengineer = 3
+			drillmaster = 3
+			#NYAB
+			yongbingduizhang = 3
+			}
+		NOT = {
+		OR = {
+			army_organiser = 4
+			army_reformer = 4
+			commandant = 4
+			grand_captain = 4
+			recruitmaster = 4
+			fortification_expert = 4
+			quartermaster = 4
+			#maid
+			ms_advisor_militarist = 4
+			ms_advisor_red = 4
+			#idea_var
+			idea_var_advisor_5 = 4
+			idea_var_advisor_11 = 4
+			idea_var_advisor_12 = 4
+			idea_var_advisor_13 = 4
+			idea_var_advisor_14 = 4
+			idea_var_advisor_15 = 4
+			idea_var_advisor_16 = 4
+			idea_var_advisor_17 = 4
+			idea_var_advisor_18 = 4
+			idea_var_advisor_28 = 4
+			idea_var_advisor_29 = 4
+			#AB
+			mr_advisor = 4
+			dragoon = 4
+			siegeengineer = 4
+			drillmaster = 4
+			#NYAB
+			yongbingduizhang = 4
+			}
+		}
+	}
+}
+RPAAP_has_mil_advisor_4 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_mil_advisor_4_tooltip
+		OR = {
+			army_organiser = 4
+			army_reformer = 4
+			commandant = 4
+			grand_captain = 4
+			recruitmaster = 4
+			fortification_expert = 4
+			quartermaster = 4
+			#maid
+			ms_advisor_militarist = 4
+			ms_advisor_red = 4
+			#idea_var
+			idea_var_advisor_5 = 4
+			idea_var_advisor_11 = 4
+			idea_var_advisor_12 = 4
+			idea_var_advisor_13 = 4
+			idea_var_advisor_14 = 4
+			idea_var_advisor_15 = 4
+			idea_var_advisor_16 = 4
+			idea_var_advisor_17 = 4
+			idea_var_advisor_18 = 4
+			idea_var_advisor_28 = 4
+			idea_var_advisor_29 = 4
+			#AB
+			mr_advisor = 4
+			dragoon = 4
+			siegeengineer = 4
+			drillmaster = 4
+			#NYAB
+			yongbingduizhang = 4
+			}
+		NOT = {
+		OR = {
+			army_organiser = 5
+			army_reformer = 5
+			commandant = 5
+			grand_captain = 5
+			recruitmaster = 5
+			fortification_expert = 5
+			quartermaster = 5
+			#maid
+			ms_advisor_militarist = 5
+			ms_advisor_red = 5
+			#idea_var
+			idea_var_advisor_5 = 5
+			idea_var_advisor_11 = 5
+			idea_var_advisor_12 = 5
+			idea_var_advisor_13 = 5
+			idea_var_advisor_14 = 5
+			idea_var_advisor_15 = 5
+			idea_var_advisor_16 = 5
+			idea_var_advisor_17 = 5
+			idea_var_advisor_18 = 5
+			idea_var_advisor_28 = 5
+			idea_var_advisor_29 = 5
+			#AB
+			mr_advisor = 5
+			dragoon = 5
+			siegeengineer = 5
+			drillmaster = 5
+			#NYAB
+			yongbingduizhang = 5
+			}
+		}
+	}
+}
+RPAAP_has_mil_advisor_5 = {
+	custom_trigger_tooltip = {
+		tooltip = RPAAP_has_mil_advisor_5_tooltip
+		OR = {
+			army_organiser = 5
+			army_reformer = 5
+			commandant = 5
+			grand_captain = 5
+			recruitmaster = 5
+			fortification_expert = 5
+			quartermaster = 5
+			#maid
+			ms_advisor_militarist = 5
+			ms_advisor_red = 5
+			#idea_var
+			idea_var_advisor_5 = 5
+			idea_var_advisor_11 = 5
+			idea_var_advisor_12 = 5
+			idea_var_advisor_13 = 5
+			idea_var_advisor_14 = 5
+			idea_var_advisor_15 = 5
+			idea_var_advisor_16 = 5
+			idea_var_advisor_17 = 5
+			idea_var_advisor_18 = 5
+			idea_var_advisor_28 = 5
+			idea_var_advisor_29 = 5
+			#AB
+			mr_advisor = 5
+			dragoon = 5
+			siegeengineer = 5
+			drillmaster = 5
+			#NYAB
+			yongbingduizhang = 5
+			}
+	}
+}

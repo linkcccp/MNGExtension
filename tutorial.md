@@ -34,3 +34,9 @@
 4. 省份添加continent.txt，并在climate.txt里添加到荒地里 ***impassable***
 5. 本地化
 6. 添加历史文件
+
+
+修改steam\steamapps\common\Europa Universalis IV\common 中的defines.lua文件，HARMONY_LOSS_PER_DEV_CONVERTED这一数值。YEARLY_HARMONY_INCREASE_WHEN_HARMONIZING = -3.0,是和谐的损耗，
+YEARLY_HARMONIZATION_PROGRESS = 0.03是年和谐速度
+儒教和谐加成在steam\steamapps\common\Europa Universalis IV\common\static_modifiers中的00_static_modifiers.txt里修改，直接往下搜harm就行
+和谐宗教后给的buff应该是在steam\steamapps\common\Europa Universalis IV\common\event_modifiers中的00_event_modifiers.txt里，我没改过也不确定，你可以找下
