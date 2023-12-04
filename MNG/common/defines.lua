@@ -557,7 +557,7 @@ NCountry = {
 	INSTITUTION_BASE_IMP_DEVELOPMENT = 30,
 
 	EMBRACE_INSTITUTION_COST = 2.5,				-- 2.5 per development (autonomy modified)
-	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
+	MAXIMUM_CONDOTTIERI = 9999,					-- Base number of units you can rent out 最大雇佣军
 	CORRUPTION_COST = 0.05,						-- cost for monthly combat per development
 	STATE_MAINTENANCE_DEV_FACTOR = 0.007,		-- per dev
 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.001,	-- distance
